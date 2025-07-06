@@ -7,25 +7,6 @@ This is a simple Node.js CLI project that processes hotel guest data from a CSV 
 - 📅 All guests sorted by their check-in date  
 
 ---
-
-## 📁 Project Structure
-
-```
-├── data/
-│ └── MOCK_DATA.csv # The guest data file
-│
-├── scripts/
-│ ├── index.js # Main entry point
-│ ├── hotelFunctions.js # Master exporter for all functions
-│
-│ ├── parseCSV.js # Parses CSV into JS data
-│ ├── getCheckInGuests.js # Filters guests by check-in date
-│ ├── birthdayDuringStay.js # Finds guests with birthdays during their stay
-│ ├── sortGuestsByCheckInDate.js # Sorts guests by check-in date
-│ └── printFunctionsData.js # Prints guest data in tables
-```
-
----
 ## 📦 Technologies Used
 
 - `Node.js`  
